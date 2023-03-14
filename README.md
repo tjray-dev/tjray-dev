@@ -5,7 +5,6 @@ I am a Freelance Software Engineer seeking a full-time position in the tech sect
 
  - Email: tate@tateray.com
  - LinkedIn: Tate Ray
- - Twitter: @tjray_dev
  
  # Skills
  
@@ -16,12 +15,6 @@ I am a Freelance Software Engineer seeking a full-time position in the tech sect
  - JavaScript
  
  ## Frameworks
- 
- ### Front-End
-
 - React
- 
- ### Back-End
-
 - Ruby on Rails
 - Sinatra
