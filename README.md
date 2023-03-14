@@ -8,6 +8,8 @@ I am a Freelance Software Engineer seeking a full-time position in the tech sect
  
  # Skills
  
+ 
+ 
  ## Languages
  - Ruby
  - HTML
