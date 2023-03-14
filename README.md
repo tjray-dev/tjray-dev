@@ -4,7 +4,7 @@ I am a Freelance Software Engineer seeking a full-time position in the tech sect
 # Contact Info
 
  - Email: tate@tateray.com
- - LinkedIn: (https://www.linkedin.com/in/tateray/) Tate Ray 
+ - LinkedIn: [Tate Ray](https://www.linkedin.com/in/tateray/) 
  
  # Skills
  
