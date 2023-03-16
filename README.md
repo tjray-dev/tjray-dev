@@ -21,5 +21,5 @@ I am a Freelance Software Engineer seeking a full-time position in the tech sect
 
 # Projects
 
-- [GroWise] (https://github.com/RogueStateTechnologies/hydro) 
-- City of Brass
+- [GroWise](https://github.com/RogueStateTechnologies/hydro) 
+- [City of Brass](https://github.com/tjray-dev/city-of-bras)
