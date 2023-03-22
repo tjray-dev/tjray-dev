@@ -18,8 +18,3 @@ I am a Freelance Software Engineer seeking a full-time position in the tech sect
 - React
 - Ruby on Rails
 - Sinatra
-
-# Project Repos
-
-- [GroWise](https://github.com/RogueStateTechnologies/hydro) 
-- [City of Brass](https://github.com/tjray-dev/city-of-bras)
