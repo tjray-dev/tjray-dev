@@ -1,138 +1,25 @@
 <!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <link rel="stylesheet" href="index.css">
-    <title>tateray.com</title>
-  </head>
-  <body class="page" style="background-color:rgba(29, 157, 216, 0.726)">
-    <header class="heading">
-      <div class="navbar">
-        <a class="navlink" id="about" href="about">About</a>
-        <a class="navlink" id="contact" href="about">Contact</a>
-        <a class="navlink" id="work" href="about">Work</a>
-      </div>
-    </header>
-    <div class="content">
-      <div class="blurb" id="about">
-        {{about}}
-      </div>
-      <div class="blurb" id="stack">
-        <h5>What I've been working with lately...</h5>
-        <ul class="listing" id="stack">
-          <li class="listItem" id="tech" v-for="tech in techStack">{{tech}}</li>
-        </ul>
-      </div>
-      <div class="blurb" id="socials">
-          <h6>The Socials</h6>
-          <div class="navbar">
-            <a class="navlink" v-for="social in socials" href="social.link">{{social}}</a>
-          </div>
-      </div>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Tate Ray</title>
+</head>
+<body>
+  <header>
+    <div>
+      Tate Ray
     </div>
-    <div class="projects">
-      <div v-for="project in projects" class="project" :key="project.index">
-        <h4><u>{{project.projectName}}</u></h4>
-        <div class="thumbnail">
-        </div>
-        <p>
-          {{project.projectDescription}}
-        </p>
-        <div class="navbar">
-          <a class="navlink" href="project.projectRepo">GitHub</a>
-          <a class="navlink" href="project.projectDemo">Demo</a>
-          <a class="navlink" href="project.projectSite">Site</a>
-        </div>
+    <nav>
+      <div>
+        <a href="#home">Home</a>
       </div>
-    </div>
-    <div class="footer" >
-      
-    </div>
-    <script src="https://unpkg.com/vue@3"></script>
-    <script>
-      Vue.createApp({
-        data(){
-          return{
-            about: "Hi, My name is Tate. Welcome to my site. I'm a Full Stack Software Engineer just beginning my journey as a developer.",
-            techStack: [ "HTML",
-                         "CSS",
-                         "Ruby",
-                         "JavaScript",
-                         "Vue",
-                        ],
-            socials: [ "Twitter",
-                       "Reddit",
-                       "LinkedIn",
-                      ],
-            projects: [
-              {
-                projectName: "Project 1",
-                projectThumbnail: "an image src",
-                projectDescription: "This is a description of a project!",
-                projectRepo: "a github link",
-                projectDemo: "a loom link",
-                projectSite: "a link to the deployed site"
-              },
-              {
-                projectName: "Project 2",
-                projectThumbnail: "an image src",
-                projectDescription: "This is a description of a project!",
-                projectRepo: "a github link",
-                projectDemo: "a loom link",
-                projectSite: "a link to the deployed site"
-              },
-              {
-                projectName: "Project 3",
-                projectThumbnail: "an image src",
-                projectDescription: "This is a description of a project!",
-                projectRepo: "a github link",
-                projectDemo: "a loom link",
-                projectSite: "a link to the deployed site"
-              },
-              {
-                projectName: "Project 3",
-                projectThumbnail: "an image src",
-                projectDescription: "This is a description of a project!",
-                projectRepo: "a github link",
-                projectDemo: "a loom link",
-                projectSite: "a link to the deployed site"
-              },
-              {
-                projectName: "Project 3",
-                projectThumbnail: "an image src",
-                projectDescription: "This is a description of a project!",
-                projectRepo: "a github link",
-                projectDemo: "a loom link",
-                projectSite: "a link to the deployed site"
-              },
-              {
-                projectName: "Project 3",
-                projectThumbnail: "an image src",
-                projectDescription: "This is a description of a project!",
-                projectRepo: "a github link",
-                projectDemo: "a loom link",
-                projectSite: "a link to the deployed site"
-              },
-              {
-                projectName: "Project 3",
-                projectThumbnail: "an image src",
-                projectDescription: "This is a description of a project!",
-                projectRepo: "a github link",
-                projectDemo: "a loom link",
-                projectSite: "a link to the deployed site"
-              },
-              {
-                projectName: "Project 3",
-                projectThumbnail: "an image src",
-                projectDescription: "This is a description of a project!",
-                projectRepo: "a github link",
-                projectDemo: "a loom link",
-                projectSite: "a link to the deployed site"
-              }
-            ]
-          }
-        }
-      })
-      .mount('.page')
-    </script>
-  </body>
+      <div>
+        <a href="#about">Resume</a>
+      </div>
+      <div>
+        <a href="#protfolio">Portfolio</a>
+      </div>
+    </nav>
+  </header>
+</body>
 </html>
