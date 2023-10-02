@@ -13,11 +13,11 @@ body {
 }
 
 .timeline {
-	width:500px;
+	width: 90%;
 	height: 20px;
 	list-style: none;
 	text-align: justify;
-	margin: 80px auto;
+	margin: 300px auto;
 	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,0)), color-stop(45%, rgba(255,255,255,0)), color-stop(51%, rgba(191,128,11,1)), color-stop(57%, rgba(255,255,255,0)), color-stop(100%, rgba(255,255,255,0)));
 	background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 45%, rgba(191,128,11,1) 51%, rgba(255,255,255,0) 57%, rgba(255,255,255,0) 100%);
 }
@@ -45,10 +45,10 @@ body {
 }
 
 .timeline li:nth-child(odd):before {
-	top: -40px;
+	top: -60px;
 }
 .timeline li:nth-child(even):before {
-	bottom: -40px;
+	bottom: -60px;
 }
 
 .timeline li:after {
@@ -69,4 +69,15 @@ body {
 	top: 0;
 	margin-top: -10px;
 	transform: translate(-50%, -100%);
+}
+
+.navigation-container{
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	width: auto;
+}
+
+.nav-div{
+	margin: auto;
 }
