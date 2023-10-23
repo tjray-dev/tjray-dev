@@ -3,33 +3,151 @@
 <head>
   <meta charset="UTF-8" />
   <title>Tate Ray</title>
-  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header>
-    <nav>
-      <div class="navigation-container">
-        <div class="nav-div">
-          <a href="/tjray-dev/index">Home</a>
+    <nav class="nav-bar shown">
+      <div class="container">
+        <div class="nav-continer active" id="home">
+          <a class="nav-button" id="home">Home</a>
         </div>
-        <div class="nav-div">
-          <a href="/tjray-dev/about">Resume</a>
+        <div class="navigation-container" id="resume">
+          <a class="nav-button" id="resume">Resume</a>
         </div>
-        <div class="nav-div">
-          <a href="/tjray-dev/protfolio">Portfolio</a>
+        <div class="nav-container" id="portfolio">
+          <a class="nav-button" id="portfolio">Portfolio</a>
+        </div>
+        <div class="navigation-container" id="portfolio">
+          <a class="nav-button" id="contact">Contact</a>
         </div>
       </div>
-  </nav>
+    </nav>
   </header>
   <main>
-    <div name="home">
-      <ul class="timeline">
-        <li data-year="2021" data-text=""></li>
-        <li data-year="Oct 2021" data-text="Completed Software Engineering boot camp"></li>
-        <li data-year="Nov 2021" data-text="Founded Rouge State Technologies"></li>
-        <li data-year="2022" data-text=""></li>
-        <li data-year="2023" data-text=""></li>
-      </ul>
+    <div class=" page container active" id="home">
+      <div class="page-heading container" id="home">
+        <span class="page-heading heading" id="home">Hello and welcome!</span>
+        <p class="page-heading heading-text" id="home">
+          My name is Tate, and this is my site. This is where you can find my portfolio as well as my resume.
+          Feel free to look around, and if you like <a href="mailto:personal@tateray.com">contact me.</a>
+        </p>
+      </div>
+      <div class="page-body container" id="home">
+        <div class="page-body heading container" id="home">
+          <span class="page-body heading" id="recent-projects">Here are a few highlights from my portfolio</span>
+        </div>
+        <div class="page-body projects container" id="home">
+          <div class="project-card">
+            <div class=" project-heading" id="project1">
+              <span class="project-title" id="project1">{Project Name}</span>
+              <div class="project img-container" id="project1">
+                <img src="" alt="project1 img">
+              </div>
+            </div>
+            <div class="project-body" id="project1">
+              <div class="project-body description" id="project1">
+                <p class="body-text truncated" id="project1">
+                  {project description}
+                </p>
+              </div>
+              <div class="project-body tech-stack truncated" id="project1">
+                <div class="tech-stack icons-container">
+                  <!-- place cluster of icons here -->
+                  <!-- should be aligned in a row -->
+                </div>
+                <ul class="tech-stack listed">
+                  <!-- create line item for tech -->
+                  <!-- should have Full name text and icon -->
+                </ul>
+              </div>
+              <div class="project-body button-container" id="expand">
+                <button class="project-card info-button" id="project1">More info</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="page container" id="resume">
+      <div class="page-body button-container" id="resume">
+        <button class="page-button" id="resume-download"></button>
+      </div>
+      <div class="page-body heading container" id="resume">
+        <span class="page-heading heading" id="resume">Resume</span>
+        <span class="page-heading heading-text" id="resume">(or CV if you're into the whole brevity thing)</span>
+      </div>
+      <div class="page-body container" id="resume">
+        <div class="page-body heading container" id="professional-summery">
+          <span class="page-body heading" id="professional-summery">Professional Summery</span>
+        </div>
+        <div class="page-body text container" id="professional-summery">
+          <p class="page-body text" id="professional-summery">
+            {professional summery}
+          </p>
+        </div>
+        <div class="page-body heading container" id="skill-highlights">
+          <div class="page-body text container" id="skill-highlights">
+            <ul>
+              <!-- list out top skills -->
+              <!-- don't over do it -->
+              <!-- it will look like im trying to hard or simply lying -->
+            </ul>
+          </div>
+        </div>
+        <div class="page-body heading container" id="work-history">
+          <div class="page-body text container" id="work-history">
+            <ul>
+              <!-- list overview of work history -->
+              <!-- include three points of achievement or responsibility -->
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="page container" id="portfolio">
+      <div class="page-body heading container" id="portfolio">
+        <span class="page-heading heading" id="portfolio">Some of my work</span>
+      </div>
+      <div class="page-body container" id="portfolio">
+        <div class="project-card">
+          <div class=" project-heading container" id="project1">
+            <span class="project-title" id="project1">{Project Name}</span>
+            <div class="project img-container" id="project1">
+              <img src="" alt="project1 img">
+            </div>
+          </div>
+          <div class="project-body" id="project1">
+            <div class="project-body description" id="project1">
+              <p class="body-text truncated" id="project1">
+                {project description}
+              </p>
+            </div>
+            <div class="project-body tech-stack truncated" id="project1">
+              <div class="tech-stack icons-container">
+                <!-- place cluster of icons here -->
+                <!-- should be aligned in a row -->
+              </div>
+              <ul class="tech-stack listed">
+                <!-- create line item for tech -->
+                <!-- should have Full name text and icon -->
+              </ul>
+            </div>
+            <div class="project-body highlight container" id="project1">
+              <span class="highlight text" id="project1"></span>
+              <div class="highlight-body container">
+                <!-- this should be a code sample -->
+                <!-- should only be shown if a button is clicked -->
+                <!-- maybe a gif or image(slideshow?) where applicable -->
+              </div>
+            </div>
+            <div class="project-body button-container" id="expand">
+              <button class="project-card info-button" id="project1">More info</button>
+              <button class="project-card highlight-button">See Project highlight</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </main>
 </body>
