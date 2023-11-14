@@ -1,0 +1,15 @@
+{
+    "pages": 
+    [
+        {
+            "heading": "Hello World!",
+            "sub-heading": "My name is Tate and this is my personal site.",
+            "content":
+            [
+                "Currently I am working as a Freelance Fullstack Web Developer and Independent Video Game Developer.",
+                "My tech stack for web development consists of the three pillars of web design, along with multiple popular web frameworks.",
+                "I'm skilled at building custom apis as well as working with third-party apis."
+            ] 
+        }
+    ]
+}
