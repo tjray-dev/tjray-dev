@@ -1,7 +1,16 @@
+@font-face {
+    font-family: "headings";
+    src: url("../assets/fonts/Streamer\ Slant\ Demo.otf") format("opentype");
+}
+@font-face {
+    font-family: "texts";
+    src: url("../assets/fonts/Cyber\ gloom.otf") format("opentype");
+}
+
 body 
 {
     height: 100vh;
-    background: url("1.svg");
+    background: url("../assets/imgs/background.svg");
     background-repeat: no-repeat;
     background-size: cover;
     resize: both;
@@ -16,4 +25,5 @@ a
 {
     display: flex;
     flex-direction: column;
+    font-family: "headings", sans-serif;
 }
