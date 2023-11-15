@@ -1,16 +1,16 @@
 @font-face {
     font-family: "headings";
-    src: url("tjray-dev/assets/fonts/Streamer\ Slant\ Demo.otf") format("opentype");
+    src: url("https://tjray-dev.github.io/tjray-dev/assets/fonts/Streamer\ Slant\ Demo.otf") format("opentype");
 }
 @font-face {
     font-family: "texts";
-    src: url("tjray-dev/assets/fonts/Cyber\ gloom.otf") format("opentype");
+    src: url("https://tjray-dev.github.io/tjray-dev/assets/fonts/Cyber\ gloom.otf") format("opentype");
 }
 
 body 
 {
     height: 100vh;
-    background: url("../assets/imgs/background.svg");
+    background: url("https://tjray-dev.github.io/tjray-dev/assets/imgs/background.svg");
     background-repeat: no-repeat;
     background-size: cover;
     resize: both;
