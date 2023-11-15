@@ -1,39 +1,19 @@
-.shown{
-
+body 
+{
+    height: 100vh;
+    background: url("1.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    resize: both;
 }
 
-.active{
-
+a
+{
+    text-decoration: none;
 }
 
-.truncated{
-
-}
-
-.container{
-
-}
-
-.page{
-
-}
-
-.page-heading{
-
-}
-
-.page-body{
-
-}
-
-.project-card{
-
-}
-
-.project-heading{
-
-}
-
-.project-body{
-	
+#nav-bar
+{
+    display: flex;
+    flex-direction: column;
 }
