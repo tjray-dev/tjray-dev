@@ -10,7 +10,7 @@
 body 
 {
     height: 100vh;
-    background: url("./assets/imgs/background.svg");
+    background: url("./../assets/images/background.svg");
     background-repeat: no-repeat;
     background-size: cover;
     resize: both;
