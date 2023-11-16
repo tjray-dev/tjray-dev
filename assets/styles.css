@@ -1,10 +1,10 @@
 @font-face {
     font-family: "headings";
-    src: url("./assets/fonts/Streamer\ Slant\ Demo.otf") format("opentype");
+    src: url("./../assets/fonts/Streamer\ Slant\ Demo.otf") format("opentype");
 }
 @font-face {
     font-family: "texts";
-    src: url("./assets/fonts/Cyber\ gloom.otf") format("opentype");
+    src: url("./../assets/fonts/Cyber\ gloom.otf") format("opentype");
 }
 
 body 
