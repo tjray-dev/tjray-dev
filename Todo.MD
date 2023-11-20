@@ -1,5 +1,6 @@
 <!-- This where TODOs go! -->
 
+<!-- TODO: Migrate all of this over to a new repo that  doesn't piggyback off of the github-config repo -->
 <!-- TODO: Finish Filling out the JSON file with any and all information needed for page population -->
 <!-- TODO: Create a second json file to be used exclusively for project details and populating Project cards -->
 <!-- TODO: Using Canva, create the various graphical elements desired for the site -->
